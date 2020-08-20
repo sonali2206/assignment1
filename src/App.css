@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+  margin: 0;
+  font-family: 'Merriweather', "Open Sans", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+  color: rgb(102, 102, 102) !important;
+  background-color: rgb(248, 249, 250) !important;
+}
+
+.main {
+  background-color: #fff;
+  margin: 10px auto;
+  box-shadow: rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+h1 {
+    font-size: 48px !important;
+    letter-spacing: 0.8px;
+    color: #000 !important;
+}
+
+h5 {
+  font-size: 13px !important;
+  font-family: "Open Sans", sans-serif !important;
+  font-weight: 700 !important;
+  color: #2079c7;
+  letter-spacing: 0.5px;
+}
+
+h6 {
+  padding:21.3px 0;
+  font-style: italic;
+  font-size: 13px !important;
+  color: #000;
+  margin-bottom: 0 !important;
+}
+
+.contact-info, .title-desc {
+    font-family: "Open Sans", sans-serif !important;
+    color: #000 !important;
+}
+
+.section-main {
+  padding:0 57.6px 40px 57.6px;
+}
+
+.link {
+  color: rgb(17, 85, 204);
+}
+
+.font-light-bold {
+  font-weight: 600;
+}
+
+/*academic*/
+.projects .project-name {
+  font-size: 15.3px !important;
+    color: #000;
+    font-weight: 700;
+}
+
+.projects a {
+  font-size: 14.6px;
+    color: rgb(17, 85, 204);
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*academic*/
+.academic p {
+  font-size: 14.5px !important;
+    color: #000 !important;
+    font-weight: 400;
+}
+.academic .academic-title {
+    font-weight: 700;
+}
+
+.academic-name {
+    font-style: italic;
+}
+
+
+.exp-period {
+  font-size: 10.6px;
+  font-family: "Open Sans", sans-serif !important;
+  display: block;
+  padding-top: 6.7px;
+  color: #666666;
+  font-weight: 400;
+}
